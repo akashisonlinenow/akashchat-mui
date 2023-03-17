@@ -1,4 +1,4 @@
-import { Mail, Notifications, Pets } from '@mui/icons-material';
+import { Mail, Notifications, Pets, WhatsApp } from '@mui/icons-material';
 import { AppBar, Avatar, Badge, Box, InputBase, Menu, MenuItem, styled, Toolbar, Typography } from '@mui/material'
 // import { borderRadius } from '@mui/system';
 import React, { useState } from 'react';
@@ -39,9 +39,9 @@ const Navbar = () => {
         <AppBar position='sticky'>
             <StyledToolbar>
                 <Typography variant='h6' sx={{ display: { xs: "none", sm: "block" } }}>
-                    LAMA DEV
+                    AkashChat 💭
                 </Typography>
-                <Pets sx={{ display: { xs: "block", sm: "none" } }} />
+                <WhatsApp sx={{ display: { xs: "block", sm: "none" } }} />
                 <Search><InputBase placeholder='Search...' /></Search>
                 <Icons>
                     <Badge badgeContent={4} color="error">
@@ -52,16 +52,16 @@ const Navbar = () => {
                     </Badge>
                     <Avatar
                         sx={{ width: 30, height: 30 }}
-                        src="https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        src="https://images.pexels.com/photos/1472761/pexels-photo-1472761.jpeg?auto=compress&cs=tinysrgb&w=600"
                         onClick={e => setOpen(true)}
                     />
                 </Icons>
                 <UserBox onClick={e => setOpen(true)}>
                     <Avatar
                         sx={{ width: 30, height: 30 }}
-                        src="https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&w=600"
+                        src="https://images.pexels.com/photos/1472761/pexels-photo-1472761.jpeg?auto=compress&cs=tinysrgb&w=600"
                     />
-                    <Typography variant='span'>Akash</Typography>
+                    <Typography variant='span'>Akash Shridharan</Typography>
                 </UserBox>
 
             </StyledToolbar>

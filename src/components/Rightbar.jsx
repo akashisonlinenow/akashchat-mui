@@ -115,7 +115,7 @@ const Rightbar = () => {
                                     >
                                         to Akash, Allu Arjun, +5more
                                     </Typography>
-                                    {" — Wish I could come, but I'm out of town this…"}
+                                    {" — Wish I could come, but I'm out of town bhailog..."}
                                 </React.Fragment>
                             }
                         />
