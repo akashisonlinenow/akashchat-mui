@@ -1,3 +1,7 @@
+AkashChat App - a simple social media app UI (frontend). Build using [Material UI](https://mui.com/).
+
+Checkout the **[Live Site](https://akashchat.netlify.app/)**.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
